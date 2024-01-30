@@ -1,0 +1,7 @@
+//////////////////////////////////////////////////
+// Nama file: move-file1.js
+//////////////////////////////////////////////////
+
+var child_process = require('child_process');
+
+child_process.exec('mv databaru.txt newdir/databaru.txt');
