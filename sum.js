@@ -1,0 +1,10 @@
+//////////////////////////////////////////////////
+// Nama file: sum.js
+//////////////////////////////////////////////////
+
+var total = 0.0;
+for (let i=2; i<process.argv.length; i++) {
+   total += parseFloat(process.argv[i]);
+}
+
+console.log(total);
